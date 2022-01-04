@@ -8,8 +8,11 @@ h1 {
 .food {
   color: orange;
 }
-section {
+.about-me {
   display: flex;
+  margin-bottom: 200px;
+  background-image: url(bgimg.jpg);
+  background-image: url(bgimg1.png);
 }
 .half-width {
   width: 50%;
@@ -25,4 +28,31 @@ section {
   padding: 10px 35px;
   color: white;
   border-radius: 25px;
+}
+#about {
+  background-repeat: no-repeat;
+}
+.recipe {
+  text-align: center;
+}
+.description {
+  text-align: center;
+}
+.item {
+  display: flex;
+  margin: 200px;
+}
+.menu {
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5%;
+}
+.menu img {
+  width: 100%;
+}
+.header {
+  margin-bottom: 0.5%;
 }
