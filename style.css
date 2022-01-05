@@ -56,3 +56,42 @@ h1 {
 .header {
   margin-bottom: 0.5%;
 }
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  float: left;
+}
+/*.nav {
+  display: block;
+  padding: 8px;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  padding: 30px 100px;
+  align-items: center;
+  background-position: center;
+}*/
+.navigation {
+  display: flex;
+  text-align: center;
+  padding: 10px 100px;
+  margin-bottom: 150px;
+  width: 86%;
+  background-color: orange;
+}
+.nav {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  padding-top: 50;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.nav-class {
+}
